@@ -12,6 +12,10 @@ public class MyFirstProgram {
         System.out.println("Adam" + " Krajan"); //łączenie stringów konkatenacja
         System.out.println(2+2*2);
 
+        int l = 6;  //deklaracja zmiennej
+        int s = l*l; //dzialanie na powierzchnie
+        System.out.println("Powierzchnia kwadratu " + l + " = " + s);
+
     }
 
 }
