@@ -7,4 +7,8 @@ public class Square {
         this.l = l;  //konstruktor
 
     }
+
+    public double areakw(){
+        return  this.l * this.l;
+    }
 }

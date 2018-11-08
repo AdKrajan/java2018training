@@ -8,21 +8,16 @@ public class MyFirstProgram {
         hello("User");
 
         Square s = new Square(5);
-        System.out.println("Powierzchnia kwadratu " + s.l + " = " + areakw(s));
+        System.out.println("Powierzchnia kwadratu " + s.l + " = " + s.areakw());
 
         Rectangle r = new Rectangle(50, 60);
-        System.out.println("Powierzchnia prostokata " + r.a + " i " + r.b + " = " + areapr(r));
+        System.out.println("Powierzchnia prostokata " + r.a + " i " + r.b + " = " + r.areapr());
     }
 
     public static void hello(String somebody){
         System.out.println("Hello, " + somebody + "!");
     }
-    public static double areakw(Square s){
-       return  s.l * s.l;
-    }
-    public static double areapr(Rectangle r){
-        return r.a * r.b;
-    }
+
 
 
 }
