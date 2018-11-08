@@ -7,22 +7,21 @@ public class MyFirstProgram {
         hello("Adam");
         hello("User");
 
-        double l = 5;
-        System.out.println("Powierzchnia kwadratu " + l + " = " + areakw(l));
+        Square s = new Square(5);
+        System.out.println("Powierzchnia kwadratu " + s.l + " = " + areakw(s));
 
-        double a = 4;
-        double b = 6;
-        System.out.println("Powierzchnia prostokata " + a + " i " + b + " = " + areapr(a, b));
+        Rectangle r = new Rectangle(50, 60);
+        System.out.println("Powierzchnia prostokata " + r.a + " i " + r.b + " = " + areapr(r));
     }
 
     public static void hello(String somebody){
         System.out.println("Hello, " + somebody + "!");
     }
-    public static double areakw(double len){
-       return  len * len;
+    public static double areakw(Square s){
+       return  s.l * s.l;
     }
-    public static double areapr(double a, double b){
-        return a * b;
+    public static double areapr(Rectangle r){
+        return r.a * r.b;
     }
 
 
