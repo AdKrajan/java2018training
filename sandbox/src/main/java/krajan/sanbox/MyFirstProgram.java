@@ -3,19 +3,27 @@ package krajan.sanbox;
 public class MyFirstProgram {
 
     public static void main(String[] args) {
-        System.out.println("Hello, world");
-        System.out.println(2+2);
-        System.out.println(2*2);
-        System.out.println(1.0 / 2);
-        System.out.println("Adam" + " Krajan"); //łączenie stringów konkatenacja
-        System.out.println(2+2*2);
+        hello("world");
+        hello("Adam");
+        hello("User");
 
-        String somebody = "Powierzchnia kwadratu";
-        int l = 6;  //deklaracja zmiennej
-        double d = 12; //zmiennoprzecinkowy
-        int s = l*l; //dzialanie na powierzchnie
-        System.out.println(somebody + " " + l + " = " + s + " " + d);
+        double l = 5;
+        System.out.println("Powierzchnia kwadratu " + l + " = " + areakw(l));
 
+        double a = 4;
+        double b = 6;
+        System.out.println("Powierzchnia prostokata " + a + " i " + b + " = " + areapr(a, b));
     }
+
+    public static void hello(String somebody){
+        System.out.println("Hello, " + somebody + "!");
+    }
+    public static double areakw(double len){
+       return  len * len;
+    }
+    public static double areapr(double a, double b){
+        return a * b;
+    }
+
 
 }
