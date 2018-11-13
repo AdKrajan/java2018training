@@ -2,7 +2,7 @@ package krajan.sanbox;
 
 public class MyFirstProgram {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //test
         hello("world");
         hello("Adam");
         hello("User");
