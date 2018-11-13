@@ -1,4 +1,4 @@
-package krajan.sanbox;
+package krajan.sandbox;
 
 public class Rectangle {
     public double a;
