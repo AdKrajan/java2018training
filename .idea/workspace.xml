@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f27207-b207-441c-88e6-205f9216d492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sandbox/.gradle/" />
     <ignored path="$PROJECT_DIR$/sandbox/build/" />
@@ -78,15 +78,15 @@
         <counts>
           <entry key="dummy" value="28" />
           <entry key="gradle" value="31" />
-          <entry key="java" value="1506" />
-          <entry key="txt" value="650" />
+          <entry key="java" value="1522" />
+          <entry key="txt" value="693" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="31" />
-          <entry key="JAVA" value="1506" />
-          <entry key="PLAIN_TEXT" value="678" />
+          <entry key="JAVA" value="1522" />
+          <entry key="PLAIN_TEXT" value="721" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -110,16 +110,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -136,6 +133,10 @@
                 <element signature="e#2365#2366#0" expanded="true" />
                 <element signature="e#2412#2413#0" expanded="true" />
                 <element signature="e#2437#2438#0" expanded="true" />
+                <element signature="e#2481#2482#0" expanded="true" />
+                <element signature="e#2538#2539#0" expanded="true" />
+                <element signature="e#2574#2575#0" expanded="true" />
+                <element signature="e#2635#2636#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,11 +151,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupDeletionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="240">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -848,9 +849,9 @@
         <option value="$PROJECT_DIR$/sandbox/src/test/java/krajan/sandbox/SquareTest.java" />
         <option value="$PROJECT_DIR$/sandbox/src/test/java/krajan/sandbox/RectangleTest.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupDeletionTests.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/TestBase.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupCreationTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupDeletionTests.java" />
       </list>
     </option>
   </component>
@@ -921,7 +922,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542206637783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542207147313" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
@@ -950,7 +951,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationTest">
+  <component name="RunManager" selected="TestNG.pl.krajan.addressbook">
     <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
@@ -983,32 +984,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sandbox_test" />
+    <configuration name="GroupDeletionTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="krajan.sandbox.*" />
+          <option name="PATTERN" value="pl.krajan.addressbook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="krajan.sandbox" />
-      <option name="MAIN_CLASS_NAME" value="krajan.sandbox.RectangleTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sandbox_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="krajan.sandbox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="krajan.sandbox" />
-      <option name="MAIN_CLASS_NAME" value="krajan.sandbox.SquareTest" />
+      <option name="PACKAGE_NAME" value="pl.krajan.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="pl.krajan.addressbook.GroupDeletionTests" />
       <properties />
       <listeners />
       <method v="2">
@@ -1031,20 +1016,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pl.krajan.addressbook" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.krajan.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.krajan.addressbook" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.SquareTest" />
-      <item itemvalue="TestNG.RectangleTest" />
       <item itemvalue="TestNG.krajan.sandbox" />
       <item itemvalue="TestNG.GroupCreationTest" />
       <item itemvalue="TestNG.GroupCreationTests" />
+      <item itemvalue="TestNG.GroupDeletionTests" />
+      <item itemvalue="TestNG.pl.krajan.addressbook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.pl.krajan.addressbook" />
+        <item itemvalue="TestNG.GroupDeletionTests" />
         <item itemvalue="TestNG.GroupCreationTest" />
         <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.krajan.sandbox" />
-        <item itemvalue="TestNG.RectangleTest" />
-        <item itemvalue="TestNG.SquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1178,25 +1179,17 @@
       <option name="project" value="LOCAL" />
       <updated>1542205446551</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Przenosimy to co wspólne do klasy TestBase dodając extends Testbase do klas które mają z niej dziedziczyć&#10;&#10;potem na klasie testowej refactor &gt; pull members up przenosimy wszystko tylko nie test. Finalnie zostaje goły test">
+      <created>1542206714649</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1542206714649</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreationTest - 2018.11.14 at 13h 34m 07s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest - 2018.11.14 at 13h 35m 49s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest - 2018.11.14 at 14h 08m 53s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest - 2018.11.14 at 14h 53m 12s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest - 2018.11.14 at 15h 06m 27s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GroupCreationTest - 2018.11.14 at 15h 12m 21s.xml">
       <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
@@ -1212,9 +1205,25 @@
     <history-entry file="GroupCreationTest - 2018.11.14 at 15h 22m 54s.xml">
       <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GroupCreationTest - 2018.11.14 at 15h 42m 44s.xml">
+      <configuration name="GroupCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest - 2018.11.14 at 15h 43m 21s.xml">
+      <configuration name="GroupCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest - 2018.11.14 at 15h 43m 49s.xml">
+      <configuration name="GroupCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTests - 2018.11.14 at 15h 49m 58s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="pl_krajan_addressbook - 2018.11.14 at 15h 52m 06s.xml">
+      <configuration name="pl.krajan.addressbook" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24832214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1265,7 +1274,8 @@
     <MESSAGE value="wyodrębnienie metod pomocniczych ctrl+alt+m" />
     <MESSAGE value="parametryzacja loginu, hasla i wypelnienia formularza" />
     <MESSAGE value="dodano obiekt z dużą ilością atrybutów GroupData gdzie mamy atrybuty dla wypełnienia formularza" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodano obiekt z dużą ilością atrybutów GroupData gdzie mamy atrybuty dla wypełnienia formularza" />
+    <MESSAGE value="Przenosimy to co wspólne do klasy TestBase dodając extends Testbase do klas które mają z niej dziedziczyć&#10;&#10;potem na klasie testowej refactor &gt; pull members up przenosimy wszystko tylko nie test. Finalnie zostaje goły test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Przenosimy to co wspólne do klasy TestBase dodając extends Testbase do klas które mają z niej dziedziczyć&#10;&#10;potem na klasie testowej refactor &gt; pull members up przenosimy wszystko tylko nie test. Finalnie zostaje goły test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/krajan/sandbox/Square.java">
@@ -1337,23 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupDeletionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupCreationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1370,7 +1363,25 @@
             <element signature="e#2365#2366#0" expanded="true" />
             <element signature="e#2412#2413#0" expanded="true" />
             <element signature="e#2437#2438#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2574#2575#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupCreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
