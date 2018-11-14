@@ -77,14 +77,14 @@
         <counts>
           <entry key="dummy" value="28" />
           <entry key="gradle" value="31" />
-          <entry key="java" value="1432" />
+          <entry key="java" value="1450" />
           <entry key="txt" value="477" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="31" />
-          <entry key="JAVA" value="1432" />
+          <entry key="JAVA" value="1450" />
           <entry key="PLAIN_TEXT" value="505" />
         </counts>
       </usages-collector>
@@ -109,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+            <state relative-caret-position="260">
+              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1238#1239#0" expanded="true" />
@@ -888,7 +888,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542204356185" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542204898031" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
@@ -1121,13 +1121,17 @@
       <option name="project" value="LOCAL" />
       <updated>1542203656210</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="wyodrębnienie metod pomocniczych ctrl+alt+m">
+      <created>1542204371483</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542204371483</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreationTest - 2018.11.14 at 13h 13m 40s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GroupCreationTest - 2018.11.14 at 13h 19m 23s.xml">
       <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
@@ -1153,6 +1157,9 @@
       <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupCreationTest - 2018.11.14 at 14h 53m 12s.xml">
+      <configuration name="GroupCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest - 2018.11.14 at 15h 06m 27s.xml">
       <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1206,7 +1213,8 @@
     <MESSAGE value="add first tests" />
     <MESSAGE value="add first automation test by Selenium Recorder" />
     <MESSAGE value="Przeniesienie logowania do metody wstępnej" />
-    <option name="LAST_COMMIT_MESSAGE" value="Przeniesienie logowania do metody wstępnej" />
+    <MESSAGE value="wyodrębnienie metod pomocniczych ctrl+alt+m" />
+    <option name="LAST_COMMIT_MESSAGE" value="wyodrębnienie metod pomocniczych ctrl+alt+m" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/krajan/sandbox/Square.java">
@@ -1273,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/pl/krajan/addressbook/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        <state relative-caret-position="260">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1238#1239#0" expanded="true" />
